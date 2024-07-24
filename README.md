@@ -16,6 +16,10 @@ These tone files are prepared using the vendor supplied `DConvert.exe` Windows p
   * Added "Tone Type 7" (Reorder) as UK NU tone
   * Added distinctive ringing section from NZ tone file, as that has the right cadence
 
+2024-16-07:
+ * Created call_progress_uk-c4.ini and call_progress_uk-c4.dat. Edited "Tone Type 7" (Reorder) as UK NU tone as I was having problems with call disconnect timers being detected on the UK PSTN
+ * This is a version 3 .dat file and is for versions 4.5 and above as per the https://www.audiocodes.com/media/13534/dconvert-utility-users-guide.pdf. Tested and working on Firmware Version 6.60A.319.003
+
 ## TODO
   * Add entries for all valid Audiocodes tone types
   * Prepare equivalent files for older UK tone styles
